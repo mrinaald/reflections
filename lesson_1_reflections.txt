@@ -9,15 +9,23 @@ You can easily check where we have gone wrong in the newer versions of the code 
 
 
 What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Pros : 	We can decide when to actually save the version of the file, thus reducing the number of commits as well as the memory.
+		It might happen that we don't do any changes to the file for a long time. In such a case, allowing the version to save automatically will just add more non-important commits as well as memory.
+cons :	sometimes, the user might forget to commit a change brought by him in the file, and continue to work on the file. So, he might get get something wrong but due to not commiting at a point of time, he might find it more difficult to debug the code.
 
 
 Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+It might happen that for bringing a logical change in a project, more than one file has to be changed. Or sometimes, files are inter-dependent on each other. So, its a good advantage of Git as it allows saving multiple files in one commit
 
 
 How can you use the commands git log and git diff to view the history of files?
+git log provides the list of recent commits along with their commit ids, starting with the most recent commit, thus helping us to trace the changes brought in the file.
+git diff takes two commit ids as arguments to tell the difference between the state of the file at the time of these two commits made.d
 
 
 How might using version control make you more confident to make changes that could break something?
+If somehow, we lost our data, or brought some changes in the program, it might happen that we are not able to trace the bug. Using version control provides us the freedom to bring any type of change in the program or even start the program from scratch, without worrying about loosing your earlier working program.
 
 
 Now that you have your workspace set up, what do you want to try using Git for?
+Currently, I am working on speech recognition in python. So, I will use Git to keep my program's version to be saved.
