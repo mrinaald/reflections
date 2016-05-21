@@ -8,3 +8,7 @@ There are some changes which might be useful to someone and not to others.
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 Fork is used to clone the entire repository of a preson on the GitHub itself in our account.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+We can get to know what changes are brought and what changes are brought on GitHub in a project.
